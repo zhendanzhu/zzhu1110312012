@@ -1,4 +1,4 @@
-\name{P2}
+\name{Problem2}
 
 \alias{Data for Problem2}
 
