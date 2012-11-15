@@ -13,8 +13,7 @@ format. With the last argument being TRUE, it compiles the generated tex
 file into a PDF file.
 }
 
-\usage{problem1(filename = 'nameOfOutput', fcnname = aFunction, nRange =
-c(xLowerBound, xUpperBound), nsample = N, TRUE)}
+\usage{problem1(filename = NULL, fcnname = NULL, nrange=NULL, nsample=NULL, compile=NULL)}
 
 \arguments{
   \item{filename}{The file name of the generated plot, without

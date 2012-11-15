@@ -34,45 +34,17 @@
 problem1: no visible global function definition for ‘tikz’
 * checking Rd files ... NOTE
 prepare_Rd: Problem2.Rd:27: Dropping empty section \details
-prepare_Rd: problem1.Rd:37-38: Dropping empty section \note
+prepare_Rd: problem1.Rd:36-37: Dropping empty section \note
 * checking Rd metadata ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... WARNING
 Undocumented data sets:
-  ‘d’ ‘output’
+  ‘d’ ‘output’ ‘rawdata’
 All user-level objects in a package should have documentation entries.
 See the chapter ‘Writing R documentation files’ in the ‘Writing R
 Extensions’ manual.
-* checking for code/documentation mismatches ... WARNING
-Codoc mismatches from documentation object 'problem1':
-problem1
-  Code: function(filename = NULL, fcnname = NULL, nrange = NULL,
-                 nsample = NULL, compile = NULL)
-  Docs: function(filename = "nameOfOutput", fcnname = aFunction, nRange
-                 = c(xLowerBound, xUpperBound), nsample = N, TRUE)
-  Argument names in code not in docs:
-    nrange compile
-  Argument names in docs not in code:
-    nRange TRUE
-  Mismatches in argument names:
-    Position: 3 Code: nrange Docs: nRange
-    Position: 5 Code: compile Docs: TRUE
-  Mismatches in argument default values:
-    Name: 'filename' Code: NULL Docs: "nameOfOutput"
-    Name: 'fcnname' Code: NULL Docs: aFunction
-    Name: 'nsample' Code: NULL Docs: N
-
-* checking Rd \usage sections ... WARNING
-Undocumented arguments in documentation object 'problem1'
-  ‘nRange’ ‘TRUE’
-Documented arguments not in \usage in documentation object 'problem1':
-  ‘nrange’ ‘compile’
-
-Functions with \usage entries need to have the appropriate \alias
-entries, and all their arguments documented.
-The \usage entries must correspond to syntactically valid R code.
-See the chapter ‘Writing R documentation files’ in the ‘Writing R
-Extensions’ manual.
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
 * checking contents of ‘data’ directory ... OK
