@@ -1,6 +1,6 @@
-\name{Problem2}
+\name{problem2}
 
-\alias{Data for Problem2}
+\alias{output}
 
 \docType{data}
 
@@ -18,9 +18,9 @@ Winter Olympics: which country win the most medals?
   A list-mode object ith 45 slots, each of which contains the overall
   Gold, Silver, and Bronze medal counts:
   \describe{
-    \item{\code{Gold}}{Awesome!}
-    \item{\code{Silver}}{Great!}
-    \item{\code{Bronze}}{Good!}
+    \item{\code{golds}}{Awesome!}
+    \item{\code{silvers}}{Great!}
+    \item{\code{bronze}}{Good!}
   }
 }
 

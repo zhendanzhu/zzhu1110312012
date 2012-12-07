@@ -34,5 +34,4 @@ require(my1rpack)
 
 problem1('bmw1series', dnorm, c(-5, 5), 10, TRUE)
 
-problem2
 }

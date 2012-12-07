@@ -7,3 +7,4 @@ Author: Zhendan Zhu
 Maintainer: Zhendan Zhu <zzhu11@jhu.edu>
 Description: It is an R package that helps you to exhibit normal distribution as well history list of medals distribution among different countries each year in Winter Olympic Games.
 License: GPL-3 
+Depends: tikzDevice
